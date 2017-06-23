@@ -1,0 +1,74 @@
+@import "../../scss/mixins.scss";
+
+.TaskForm {
+    &__container {
+        background: #46529d;
+        color: white;
+        overflow: hidden;
+
+        &-update {
+            border: 1px solid #2ebaee;
+            border-radius: 4px;
+            padding: 10px;
+        }
+    }
+
+    &__input {
+        background: #46529d;
+        color: white;
+        padding: 10px 0;
+        margin-right: 3%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #5a64a7;
+
+        @include on-narrow {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+
+        &:active,
+        &:focus {
+            outline: none;
+            border-color: white;
+        }
+
+        &--text {
+            width: 20%;
+
+            @include on-narrow {
+                width: 100%;
+            }
+        }
+
+        &--description {
+            width: 40%;
+
+            @include on-narrow {
+                width: 100%;
+            }
+        }
+
+         &--submit {
+            cursor: pointer;
+            background: #2ebaee;
+            color: white;
+            padding: 10px 15%;
+            border: none;
+            box-shadow: 9px 8px 20px -8px rgba(0,0,0,0.75);
+        }
+    }
+
+    &__submit {
+        display: inline-block;
+        width: 34%;
+        text-align: right;
+
+         @include on-narrow {
+            width: 100%;            
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+}

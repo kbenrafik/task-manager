@@ -1,0 +1,15 @@
+@import "./scss/mixins.scss";
+
+.App__container {
+  width: 50%;
+  min-height: 200px;
+  margin: 0 auto;
+  background: white;
+  margin-top: 40px;
+  overflow: hidden;
+  box-shadow: 9px 6px 35px -2px rgba(0,0,0,0.75);
+
+  @include on-narrow-and-medium {
+    width: 80%;
+  }
+}

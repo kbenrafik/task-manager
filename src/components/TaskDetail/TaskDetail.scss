@@ -1,0 +1,45 @@
+.TaskDetail {
+    &__container {
+        padding: 10px;
+        margin: 10px;
+        border-bottom: 1px solid gray;
+
+        &:last-child {
+            border: none;
+        }
+    }
+
+    &__description {
+        color: gray;
+        font-size: 1em;
+        transition: all 0.5s ease-in-out;
+    }
+
+    &__header {
+        display: table;
+        width: 100%;
+    
+        &--title {
+            display: table-cell;
+            color: black;
+            font-size: 1.3em;
+            font-weight: normal;
+            cursor: pointer;
+        }
+
+        &--crud {
+            display: table-cell;
+            text-align: right;
+            cursor: pointer;
+        }
+
+         &--delete {
+            margin-left: 15px;
+            cursor: pointer;
+
+            &:hover {
+                transform: rotate(360deg);
+            }
+        }
+    }
+}

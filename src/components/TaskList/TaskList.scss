@@ -1,0 +1,13 @@
+.TaskList {
+    &__container {
+        margin: 20px 20px;
+        overflow: hidden;
+    }
+
+    &__title {
+        color: black;
+        font-size: 1.5em;
+        font-weight: normal;
+        margin: 0 0 20px 0;
+    }
+}
