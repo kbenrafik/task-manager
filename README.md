@@ -4,7 +4,8 @@ The aim of this project is to develop a mini-application for managing tasks
 
 ## Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](https://github.com/kbenrafik/travix-task-manager/blob/master/screenshot.gif "Screenshot")
+
 
 ## Coding
 
