@@ -42,8 +42,6 @@ Jest runner is responsible for unit testing.
 - use lint of travix
 - react router
 
-# Travix test
-
 ## Description
 
 The aim of the test is to develop a mini-application for managing tasks.
